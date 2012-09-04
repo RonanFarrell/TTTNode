@@ -1,0 +1,191 @@
+@font-face
+{
+	font-family: "Chalk";
+	src: url(../fonts/EraserRegular.ttf);
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/chalkboard.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Chalk";
+	color: #fff;
+}
+
+
+#game
+{
+	position: absolute;
+	width: 600px;
+	height: 700px;
+	display: block;
+	background-image: url(../images/chalk.png);
+	background-repeat: no-repeat;
+	margin-left: -300px;
+	left: 50%;
+	margin-top: 30px;
+}
+
+.cell
+{
+	display: block;
+	float: left;
+	height: 200px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+.x
+{
+	background-image: url(../images/x.png);
+}
+
+.o
+{
+	background-image: url(../images/o.png);
+}
+
+#footer
+{
+	width: 100%;
+	height: 100px;
+}
+
+.hud
+{
+	font-size: 2.0em;
+	font-weight: normal;
+	padding: 5px 10px 5px 10px;
+}
+
+.currentPlayer
+{
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+}
+
+#p1
+{
+	float: left;
+}
+
+#p2
+{
+	float: right;
+}
+
+#menu
+{
+	position: absolute;
+	width: 600px;
+	height: 500px;
+	text-align: center;
+	margin-left: -300px;
+	left: 50%;
+}
+
+.menuItem
+{
+	font-size: 3.0em;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.menuItem:hover
+{
+	color: #B0B0B0;
+	background: rgba(1.0, 1.0, 1.0, 0.5);
+}
+
+.menuItem:active
+{
+	color: #505050;
+}
+
+h2
+{
+	font-size: 5.0em;
+}
+
+#login
+{
+	position: absolute;
+	width: 600px;
+	height: 500px;
+	text-align: center;
+	margin-left: -300px;
+	left: 50%;
+}
+
+input
+{
+	width: 250px;
+	font-size: 2.0em;
+	font-family: "Chalk";
+	color: #fff;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#loginBtn
+{
+	font-family: "Chalk";
+	font-size: 2.0em;
+	background: rgba(255, 255, 255, 0.2);
+	color: #fff;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#historyScreen
+{
+	position: absolute;
+	width: 600px;
+	height: 500px;
+	text-align: center;
+	margin-left: -300px;
+	left: 50%;
+}
+
+#rtnMainMenu
+{
+	font-family: "Chalk";
+	font-size: 2.0em;
+	background: rgba(255, 255, 255, 0.2);
+	color: #fff;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#optionsScreen
+{
+	position: absolute;
+	width: 600px;
+	height: 500px;
+	text-align: center;
+	margin-left: -300px;
+	left: 50%;
+}
+
+#clearHistory
+{
+	font-size: 0.5em;
+}
+#mainMenuOptions
+{
+	font-size: 0.5em;
+}
+
+p
+{
+	font-size: 1.2em;
+}

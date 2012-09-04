@@ -1,0 +1,61 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="styles/styles.css"></link>
+
+<script src="jquery-1.8.0.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="gui.js"></script>
+<script src="player.js"></script>
+</head>
+
+<body>
+
+	<div id="login">
+		<h2>Tic Tac Toe</h2>
+		<input type="text" id="loginInput"></input>
+		<button id="loginBtn">Login</button>
+	</div>
+
+	<div id="menu">
+		<h2>Tic Tac Toe</h2>
+		<a href="#" id="singlePlayer" class="menuItem">Single Player</a>
+		<br/>
+		<a href="#" id="multiplayer" class="menuItem">Multiplayer</a>
+		<br/>
+		<a href="#" id="options" class="menuItem">Options</a>
+		<br/>
+		<a href="#" id="history" class="menuItem">History</a>
+		<br/>
+		<a href="http://192.168.0.102:4444"id="logout" class="menuItem">Logout</a>
+	</div>
+
+	<div id="historyScreen">
+		<h2>History</h2>
+		<p id="hist">Nothing seems to be here</p>
+		<button id="rtnMainMenu">Main Menu</button>
+	</div>
+
+	<div id="optionsScreen">
+		<h2>Options<h2>
+		<a href="#" id="clearHistory" class="menuItem">Clear History</a>
+		<br/>
+		<a href="#" id="mainMenuOptions" class="menuItem">Main Menu</a>
+	</div>
+
+	<div id="game">
+		<div id="0" class="cell"></div>
+		<div id="1" class="cell"></div>
+		<div id="2" class="cell"></div>
+		<div id="3" class="cell"></div>
+		<div id="4" class="cell"></div>
+		<div id="5" class="cell"></div>
+		<div id="6" class="cell"></div>
+		<div id="7" class="cell"></div>
+		<div id="8" class="cell"></div>
+		<div id="footer">
+			<p id="p1" class="hud currentPlayer"></p>
+			<p id="p2" class="hud"></p>
+		</div>
+	</div>
+</body>
+</html>
